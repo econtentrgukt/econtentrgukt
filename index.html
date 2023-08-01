@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,intitial-scale=1.0">
+        <title>E1 Content</title>
+        <link href='https://fonts.googleapis.com/css?family=Allerta Stencil' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Nova Flat' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Dekko' rel='stylesheet'>
+        <link rel="icon" type="image/png" href="./download.png">
+    </head>
+    <style type="text/css">
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .bg{
+            height: 900px;
+            width: 1350px;
+        }
+        .main{
+            height: 600px;
+            width: 1350px;
+            background-image: url('./bg.jpg');
+            background-repeat: no-repeat;
+            background-size:cover;
+        }
+        .head{
+            height: 100px;
+            width: 1350px;
+            border-bottom:  solid transparent;
+            position: sticky 10px;
+        }
+        .logo{
+            height: 50px;
+            width: 200px;
+            text-align: center;
+            position: absolute;
+            top: 15px;
+            color: white;
+            font-size: 30px;
+            font-family: 'Signika', sans-serif;
+            opacity: 1;
+            float: left;
+            text-shadow: 1px 1px 0.1px white;
+            opacity: 1;
+        }
+        .logo:hover{
+            opacity: 0;
+        }
+        .space{
+            height: 50px;
+            width: 550px;
+            float: left;
+        }
+        .nav1{
+            position: relative;
+            top: 25px;
+            height: 50px;
+            width: 150px;
+            float: left;
+            color: white;
+            font-size: 20px;
+            text-align: center;
+            font-family: 'Signika',sans-serif;
+        }
+        .nav11{
+            background: transparent;
+            font-family: 'Nova Flat';
+            font-size: 20px;
+            color: white;
+            border: none;
+            outline: none;
+        }
+        .nav12{
+            border: none;
+            color: black;
+            background: transparent;
+        }
+        .nav2{
+            position: relative;
+            top: 25px;
+            height: 50px;
+            width: 150px;
+            float: left;
+            font-family: 'Nova Flat';
+            color: white;
+            font-size: 20px;
+            text-align: center;
+        }
+        .nav3{
+            position: relative;
+            top: 25px;
+            height: 50px;
+            width: 150px;
+            float: left;
+            font-family: 'Nova Flat';
+            color: white;
+            font-size: 20px;
+            text-align: center;
+        }
+        .nav4{
+            position: relative;
+            top: 25px;
+            height: 50px;
+            width: 150px;
+            float: left;
+            color: white;
+            font-size: 20px;
+            text-align: center;
+            font-family: 'Nova Flat';
+        }
+        .Sign-in{
+            position: relative;
+            top: 25px;
+            height: 50px;
+            width: 150px;
+            float: left;
+            font-family: 'Nova Flat';
+            color: white;
+            font-size: 20px;
+            text-align: center;
+        }
+        .cntr{
+            height: 400px;
+            width: 600px;
+            position: relative;
+            left: 750px;
+            top: 150px;
+            color: white;
+            font-size: 80px;
+            opacity: 1;
+            animation-name: cntr;
+            animation-duration: 7s;
+        }
+        @keyframes cntr{
+            from{
+                opacity: 0;
+            }
+            to{
+                opacity: 1;
+            }
+        }
+        .cntrsmall{
+            font-size: 20px;
+            font-family: 'Nova Flat';
+        }
+        .button{
+            position: relative;
+            height: 40px;
+            width: 120px;
+            border-radius: 10px;
+            left: 170px;
+            bottom: 30px;
+            background-image: url('./bg.jpg');
+            color: white;
+            font-size: 20px;
+            animation-name: button;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            border-left: 4px solid white;
+            border: none;
+        }
+        @keyframes button{
+            0%{
+                border-left: 4px solid white;
+            }
+            25%{
+                border-top: 4px solid white;
+            }
+            50%{
+                border-right: 4px solid white;
+            }
+            75%{
+                border-bottom: 4px solid white;
+            }
+        }
+        .button:hover{
+            box-shadow: 0px 0px 20px white;
+
+        }
+        .below{
+            position: relative;
+            height: 300px;
+            width: 1350px;
+            background-image: url('./bg.jpg');
+            background-repeat: no-repeat;
+            background-size: 10000px;
+            border: none;
+        }
+        .below1{
+            height: 300px;
+            width: 334px;
+            color: white;
+            font-size: 80px;
+            font-family: 'Nova Flat';
+            text-align: center;
+            float: left;
+            animation: below1 5s infinite ;
+        }
+        .below1:hover{
+            text-shadow: 2px 2px 2px goldenrod;
+            font-size: 90px;
+        }
+        .below2{
+            height: 300px;
+            width: 334px;
+            color: white;
+            font-size: 80px;
+            font-family: 'Nova Flat';
+            text-align: center;
+            float: left;
+            animation: below2 5s infinite ;
+        }
+        .below2:hover{
+            text-shadow: 2px 2px 2px goldenrod;
+            font-size: 90px;
+        }
+        .below3{
+            height: 300px;
+            width: 334px;
+            color: white;
+            font-size: 80px;
+            font-family: 'Nova Flat';
+            text-align: center;
+            float: left;
+            animation: below3 3s infinite ;
+        }
+        .below3:hover{
+            text-shadow: 2px 2px 2px goldenrod;
+            font-size: 90px;
+        }
+        .below4{
+            height: 300px;
+            width: 334px;
+            color: white;
+            font-size: 80px;
+            font-family: 'Nova Flat';
+            text-align: center;
+            float: left;
+            animation: below4 5s infinite ;
+        }
+        .below4:hover{
+            text-shadow: 2px 2px 2px goldenrod;
+            font-size: 90px;
+        }
+        .sub{
+            color: white;
+            font-size: 40px;
+            text-align: center;
+            font-family: 'Nova Flat';
+        }
+        .ssub{
+            color: white;
+            font-size: 30px;
+            text-align: center;
+            font-family: 'Nova Flat';
+        }
+        .remove{
+            text-decoration: none;
+            color: white;
+        }
+    </style>
+    <body>
+        <div class="bg">
+            <div class="main">
+                <div class="head">
+                <div class="logo">RGUKT</div>
+                <div class="space"> </div>
+                <div class="nav1">
+                    <select class="nav11"> 
+                        <option class="nav12">Subjects</option>
+                        <option class="nav12"><a href="./comingsoon.html" class="remove">Discrete Mathematics</a></option>
+                        <option class="nav12"><a href="./comingsoon.html" class="remove">Data Structures</a></option>
+                        <option class="nav12"><a href="./comingsoon.html" class="remove">OOP's Java</a></option>
+                        <option class="nav12"><a href="./comingsoon.html" class="remove">Physics</a></option>
+                        <option class="nav12"><a href="./comingsoon.html" class="remove">MEFA</a></option>
+                        <option class="nav12"><a href="./comingsoon.html" class="remove">ES</a></option>
+                    </select>
+                </div>
+                <div class="nav2"><a href="./gate.html" class="remove" target="_parent">GATE</a></div>
+                <div class="nav3"><a href="./comingsoon.html" class="remove">References</a></div>
+                <div class="nav4"><a href="./aboutus.html" class="remove">About us</a></div>
+                <div class="Sign-in"><a href="./signin.html" target="_parent" class="remove">Sign-in</a></div>
+                </div>
+                <div class="cntr">RGUKT ONGOLE
+                    <div class="cntrsmall">This website will help you to get Online Study Materials,PDF's,Reference Books,NPTEL Videos,GATE Resources and many more...........</div>
+                    <input type="button" name="" value="Get Started" class="button"/>
+                </div>
+            </div>
+            <div class="below">
+                <div class="below1">
+                    <br/>
+                    10+
+                    <div class="sub">Subjects</div>
+                </div>
+                <div class="below2">
+                    <br/>
+                    15+
+                <div class="sub">Books
+                    <div class="ssub">per every subject</div>
+                </div>
+            </div>
+                <div class="below3">
+                    <br/>
+                    20+
+                    <div class="sub">Accurate PDF's
+                        <div class="ssub">per every subject</div>
+                    </div>
+                </div>
+                <div class="below4">
+                    <br/>
+                    25+
+                    <div class="sub">Youtube videos 
+                        <div class="ssub">per every subject</div>
+                    </div>
+                </div>
+        </div>
+    </body>
+</html>
