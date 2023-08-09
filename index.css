@@ -87,6 +87,10 @@
     border: none;
     margin-bottom: 20px;
 }
+.intro .container .btn:hover{
+    width: 150px;
+    height: 50px;
+}
 
 /*footer*/
 .foot{
@@ -109,4 +113,7 @@
 }
 .foot .container .row .col-md-6 svg{
     margin-right: 15px;
+}
+.foot .container .row .col-md-6 svg:hover{
+    transform: translateY(-10px);
 }
