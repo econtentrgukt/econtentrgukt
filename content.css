@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*NAVIGATION BAR*/
+.navigation{
+    position: sticky !important;
+    top: 0;
+    z-index: 100;
+}
+.navbar{
+    background-image: linear-gradient(to right,#a517ba,#5f1782);
+    padding: 0 !important;
+}
+.navbar-nav li{
+    padding: 0 10px;
+}
+.navbar-nav li a{
+    color: white;
+}
+.navbar-brand{
+    margin-left: 20px;
+}
+
+/*INTRODUCTION AREA*/
+.head{
+    background-image: linear-gradient(to right,#a517ba,#5f1782);
+    color: white;
+    padding-top: 5%;
+}
+.head .container .row .col-md-12 p{
+    font-weight: 400;
+    font-size: 40px;
+}
+.head img{
+    width: 100%;
+}
+
+
+/*MAIN AREA*/
+.main{
+    padding: 3% 0;
+}
+.main .container .row .col-md-4{
+    padding: 2%;
+}
+.main .container .row .col-md-4 .card{
+    border-radius: 10px;
+}
+.main .container .row .col-md-4 .card:hover{
+    box-shadow: 0 0 3px #7b1798;
+}
+.main .container .row .col-md-4 .card .card-body .btn{
+    width: 100px;
+    background-color: #7b1798;
+    border: none;
+}
+
+
+/*footer*/
+.foot{
+    background-image: linear-gradient(to right,#a517ba,#5f1782) !important;
+}
+.foot img{
+    width: 100%;
+}
+.foot .container .row .col-md-6 img{
+    margin-bottom: 20px;
+}
+.foot .container .row .col-md-6 p{
+    color: white;
+    font-weight: 400;
+}
+.foot .container .row .col-md-6 .ssh{
+    margin: 30px 0;
+    font-weight: 400;
+    font-size: 25px;
+}
+.foot .container .row .col-md-6 svg{
+    margin-right: 15px;
+}
+.foot .container .row .col-md-6 svg:hover{
+    transform: translateY(-10px);
+}
