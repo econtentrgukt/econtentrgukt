@@ -4,7 +4,7 @@ function maths(){
         window.location.href='#';
     }
     else if(name==2){
-        window.location.href='#';
+        window.location.href='./gatemathsref.html';
     }
     else{
         alert("Invalid Input");
