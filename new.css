@@ -45,16 +45,13 @@
 .main .container .row .col-md-4{
     padding: 2%;
 }
-.main .container .row .col-md-4 .card{
+.main .container .card{
     border-radius: 10px;
-}
-.main .container .row .col-md-4 .card:hover{
-    box-shadow: 0 0 3px #7b1798;
-}
-.main .container .row .col-md-4 .card .card-body .btn{
-    width: 100px;
-    background-color: #7b1798;
+    background-image: linear-gradient(to right,#a517ba,#5f1782);
     border: none;
+}
+.main .container a{
+    text-decoration: none;
 }
 
 
