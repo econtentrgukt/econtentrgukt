@@ -1,5 +1,5 @@
 function github(){
-    window.location.href='https://github.com/econtentrgukt';
+    window.location.href='https://github.com/bvcharan26';
 }
 function mail(){
     window.location.href='mailto:econtentrgukt@gmail.com';
