@@ -1,1 +1,1 @@
-alert("Welcome to E-CONTENT RGUKT\nEnter Ok to open website\nNOTE:\nWe are further planning to make a Student Teacher Interactive platform,So if you know Backend Development your contribution is valuable.\nFor further:\necontentrgukt@gmail.com\ncharanbanala26@gmail.com")
+
